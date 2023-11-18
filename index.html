@@ -1,178 +1,189 @@
 <!DOCTYPE html>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-  <head>
-    <title>YnJo Odontologia</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
-  </head>
-  <body class="is-preload">
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
-      <!-- Header -->
-      <header id="header" class="alt">
-        <h1><a href="index.html">YnJo Odontologia</a></h1>
-      </header>
 
-      <!-- Menu -->
-      <!-- <nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav> -->
+<head>
+  <title>YnJo Odontologia</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/mine.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+</head>
 
-      <!-- Banner -->
-      <section id="banner">
-        <div class="inner">
-          <!-- <div class="logo"><span class="icon fa-gem"></span></div> -->
+<body class="is-preload">
+  <div id="page-wrapper">
+    <header id="header">
+      <div class="header-start">
+        <img class="smallLogo" style="margin-right: 1em;" src="images/logo2.png" alt="" />
+        <h1 class="hide">YnJo Odontologia</h1>
+      </div>
+      <nav class="links">
+        <ul style="list-style: none; display: flex; flex-direction: row; justify-content: space-between;">
+          <li class="hide"><a href="#about">Sobre</a></li>
+          <li class="hide"><a href="#">Equipe</a></li>
+          <li><a href="http://api.whatsapp.com/send/?phone=5513997103743">(13) 99710-3743</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Banner -->
+    <section id="banner">
+      <div class="inner">
+        <!-- <div class="start">
+          <div class="logo">
+            <img style="width: 5em; height: 5em; margin-right: 20px;" src="images/logo2.png" alt="" />
+          </div>
           <h2 class="shadow-text">
             YnJo Odontologia
           </h2>
-          <p class="shadow-text">
-            Odontologia, com foco em Saúde, Prevenção e Estética.
-          </p>
+        </div> -->
+        <p class="shadow-text">
+          Odontologia, com foco em Saúde, Prevenção e Estética.
+        </p>
+        <p class="shadow-text">
+          Localizado na Av. Sen. Dantas, 315, Estuário, Santos - SP
+        </p>
+      </div>
+    </section>
+
+    <!-- Wrapper -->
+    <section id="wrapper">
+      <section id="show-section" class="wrapper div-12 alt spotlight style2">
+        <div id="show-section" class="show-section">
+          <div class="image-container">
+            <img src="images/1.png" alt="Before 1" class="img-before slider-image">
+            <img src="images/2.png" alt="After 1" class="img-after slider-image">
+            <!-- <button class="prev-btn" onclick="showImage(-1)">Previous</button>
+          <button class="next-btn" onclick="showImage(1)">Next</button> -->
+          </div>
+          <input type="range" min="0" max="100" value="50" class="slider"
+            aria-label="Porcentagem da imagem de antes sendo apresentada" />
+          <div class="slider-line"></div>
+          <div class="slider-button" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M136,40V216a8,8,0,0,1-16,0V40a8,8,0,0,1,16,0ZM96,120H35.31l18.35-18.34A8,8,0,0,0,42.34,90.34l-32,32a8,8,0,0,0,0,11.32l32,32a8,8,0,0,0,11.32-11.32L35.31,136H96a8,8,0,0,0,0-16Zm149.66,2.34-32-32a8,8,0,0,0-11.32,11.32L220.69,120H160a8,8,0,0,0,0,16h60.69l-18.35,18.34a8,8,0,0,0,11.32,11.32l32-32A8,8,0,0,0,245.66,122.34Z">
+              </path>
+            </svg>
+          </div>
         </div>
       </section>
-
-      <!-- Wrapper -->
-      <section id="wrapper">
-        <!-- One -->
-        <section id="one" class="wrapper spotlight style1">
-          <div class="inner">
-            <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-            <div class="content">
-              <h2 class="major">Atendimento único</h2>
-              <p>
-                Nosso atendimento é único, sempre com hora marcada, para dar ao
-                paciente em atendimento e o próximo, uma experiência tranquila,
-                sabendo que aquele horário, vai ser o horário de atendimento
-                correto.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Two -->
-        <section id="two" class="wrapper alt spotlight style2">
-          <div class="inner">
-            <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-            <div class="content">
-              <h2 class="major">Emergência 24hrs</h2>
-              <p>
-                Para qualquer hora e qualquer problema podemos ajudar você
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Four -->
-        <section id="four" class="wrapper alt style1">
-          <div class="inner">
-            <h2 class="major">Fazemos o necessário</h2>
-            <p>
-				Trabalhamos com várias especialidades para suas necessidades
-            </p>
-            <section class="features">
-              <article>
-                <a href="#" class="image"
-                  ><img src="images/pic04.jpg" alt=""
-                /></a>
-                <h3 class="major">Cirurgia</h3>
-                <p>
-                  Fazemos cirurgia
-                </p>
-              </article>
-              <article>
-                <a href="#" class="image"
-                  ><img src="images/pic05.jpg" alt=""
-                /></a>
-                <h3 class="major">Implante</h3>
-                <p>
-                  Implatamos
-                </p>
-              </article>
-          </div>
-        </section>
-      </section>
-
-      <!-- Footer -->
-      <section id="footer">
+      <!-- One -->
+      <section id="one" class="wrapper spotlight style1">
         <div class="inner">
-          <h2 class="major">Entre em contato</h2>
-          <p>
-            A consulta pode ser marcada via telefone, WhatsApp ou redes sociais. Caso estiver passando em frente e estejamos lá, venha tomar um café junto. Da nossa família, para sua.
-          </p>
-          <form method="post" action="#">
-            <div class="fields">
-              <div class="field">
-                <label for="name">Nome</label>
-                <input type="text" name="name" id="name" />
-              </div>
-              <div class="field">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" />
-              </div>
-              <div class="field">
-                <label for="message">Mensagem</label>
-                <textarea name="message" id="message" rows="4"></textarea>
-              </div>
-            </div>
-            <ul class="actions">
-              <li><input type="submit" value="Enviar" /></li>
-            </ul>
-          </form>
-          <ul class="contact">
-            <li class="icon solid fa-map">
-			  	<a href="https://goo.gl/maps/wJyzkFYTQfUPYMQW8">
-					Av. Sen. Dantas, 315<br />
-              		Estuário, Santos - SP<br />
-              		11015-211
-				</a>
-            </li>
-			<li class="icon brands fa-whatsapp">
-				<a href="http://api.whatsapp.com/send/?phone=5513997103743">(13) 99710-3743</a>
-			</li>
-          </ul>
-          <ul class="copyright">
-            <li>Made by jvfrodrigues</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-          </ul>
+          <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+          <div class="content">
+            <h2 class="major">Atendimento único</h2>
+            <p>
+              Tratamento com hora marcada, proporcionando para nós e o paciente uma melhor previsibilidade. <br />
+              Sala equipada com Televisão estrategicamente posicionada para melhor conforto e experiencia do paciente.
+            </p>
+          </div>
         </div>
       </section>
-    </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+      <!-- Two -->
+      <section id="two" class="wrapper alt spotlight style2">
+        <div class="inner">
+          <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+          <div class="content">
+            <h2 class="major">Emergência 24hrs</h2>
+            <p>
+              Para qualquer hora e qualquer problema podemos ajudar você
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Four -->
+      <section id="four" class="wrapper style6">
+        <div class="inner">
+          <h2 class="major">Fazemos o necessário</h2>
+          <p>
+            Trabalhamos com várias especialidades para suas necessidades
+          </p>
+          <section class="features">
+            <article>
+              <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+              <h3 class="major">Cirurgia</h3>
+              <p>
+                Fazemos cirurgia
+              </p>
+            </article>
+            <article>
+              <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+              <h3 class="major">Implante</h3>
+              <p>
+                Implatamos
+              </p>
+            </article>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="footer">
+      <div class="inner">
+        <h2 class="major">Entre em contato</h2>
+        <p>
+          A consulta pode ser marcada via telefone, WhatsApp ou redes sociais. Caso estiver passando em frente e
+          estejamos lá, venha tomar um café junto. Da nossa família, para sua.
+        </p>
+        <form method="post" action="#">
+          <div class="fields">
+            <div class="field">
+              <label for="name">Nome</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="field">
+              <label for="message">Mensagem</label>
+              <textarea name="message" id="message" rows="4"></textarea>
+            </div>
+          </div>
+          <ul class="actions">
+            <li><input type="submit" value="Enviar" /></li>
+          </ul>
+        </form>
+        <ul class="contact">
+          <li class="icon solid fa-map">
+            <a href="https://goo.gl/maps/wJyzkFYTQfUPYMQW8">
+              Av. Sen. Dantas, 315<br />
+              Estuário, Santos - SP<br />
+              11015-211
+            </a>
+          </li>
+          <li class="icon brands fa-whatsapp">
+            <a href="http://api.whatsapp.com/send/?phone=5513997103743">(13) 99710-3743</a>
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>Made by jvfrodrigues</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
 </html>
