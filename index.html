@@ -56,13 +56,33 @@
 
     <!-- Wrapper -->
     <section id="wrapper">
-      <section id="show-section" class="wrapper div-12 alt spotlight style2">
+      <section id="show" class="wrapper div-12 alt spotlight style2">
+        <div class="inner">
+          <div class="content">
+            <h2 class="major">Trabalhamos com cuidado</h2>
+            <p>
+              Veja alguns dos exemplos de resultados que criamos no nosso consultório.
+            </p>
+          </div>
+        </div>
         <div id="show-section" class="show-section">
           <div class="image-container">
-            <img src="images/1.png" alt="Before 1" class="img-before slider-image">
-            <img src="images/2.png" alt="After 1" class="img-after slider-image">
-            <!-- <button class="prev-btn" onclick="showImage(-1)">Previous</button>
-          <button class="next-btn" onclick="showImage(1)">Next</button> -->
+            <img src="images/before-after/b1.png" alt="Dentes amarelos antes de limpeza"
+              class="img-before slider-image">
+            <img src="images/before-after/a1.png" alt="Dentes brancos após tratamento de limpeza"
+              class="img-after slider-image">
+          </div>
+          <div class="image-container">
+            <img src="images/before-after/a1.png" alt="Dentes amarelos antes de limpeza"
+              class="img-before slider-image">
+            <img src="images/before-after/b1.png" alt="Dentes brancos após tratamento de limpeza"
+              class="img-after slider-image">
+          </div>
+          <div class="image-container">
+            <img src="images/before-after/b1.png" alt="Dentes amarelos antes de limpeza"
+              class="img-before slider-image">
+            <img src="images/before-after/a1.png" alt="Dentes brancos após tratamento de limpeza"
+              class="img-after slider-image">
           </div>
           <input type="range" min="0" max="100" value="50" class="slider"
             aria-label="Porcentagem da imagem de antes sendo apresentada" />
@@ -74,6 +94,10 @@
               </path>
             </svg>
           </div>
+        </div>
+        <div class="buttons">
+          <button class="prev" aria-label="Voltar para a imagem anterior" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="next" aria-label="Ir para a próxima image" onclick="plusDivs(+1)">&#10095;</button>
         </div>
       </section>
       <!-- One -->
@@ -183,7 +207,7 @@
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/script.js"></script>
+  <script src="assets/js/mine.js"></script>
 </body>
 
 </html>
