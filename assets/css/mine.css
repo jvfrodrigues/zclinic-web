@@ -80,40 +80,6 @@
     z-index: 100;
     box-shadow: 1px 1px 1px #000;
   }
-
-  .buttons {
-    padding-top: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .prev,
-  .next {
-    cursor: pointer;
-    width: auto;
-    color: white;
-    width: 10px;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-
-  .prev {
-    left: 0;
-  }
-
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
 }
 
 @media screen and (max-width: 1270px) {
@@ -128,6 +94,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     max-width: 100vw;
   }
 
@@ -153,4 +120,38 @@
 
 .footer {
   background-color: #2e3141;
+}
+
+.buttons {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  width: auto;
+  color: white;
+  width: 100px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
