@@ -155,3 +155,72 @@
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+.smallmargin {
+    margin: 0 0 0.5em 0;
+}
+
+.big {
+    font-size: 1.2rem;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.regular {
+    font-weight: 500;
+}
+
+.blacktext {
+    color: #000;
+}
+
+.img-text {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.altside1 {
+    padding: 3em 0 1em 0;
+    margin: 0 auto;
+    width: 55em;
+    display: flex;
+    align-items: center;
+    -moz-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.content-margin {
+    padding-inline: 10px;
+}
+
+.subitems {
+    padding: 3em 0 1em 0;
+    margin: 0 auto;
+    width: 55em;
+    display: flex;
+    align-items: center;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: left;
+}
+
+.subinner {
+    padding: 0 0 1em 0;
+    margin: 0 auto;
+    width: 55em;
+    display: flex;
+    align-items: center;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    text-align: left;
+}

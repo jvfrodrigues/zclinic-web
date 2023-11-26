@@ -4270,7 +4270,7 @@ body.is-preload #banner p {
       url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, center;
-    margin-top: -6.5em;
+    margin-top: -3em;
     padding-top: 6.5em;
   }
 }
